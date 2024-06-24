@@ -48,7 +48,6 @@ body {
 }
 
 .home {
-  /* position: relative; */
   width: 100%;
   height: 100vh;
   display: flex;
@@ -143,6 +142,7 @@ body {
     transform: translateY(0); /* Retorna a imagem à posição inicial */
   }
 }
+
 .skills {
   width: 100%;
   height: 80vh;
@@ -217,53 +217,58 @@ body {
 @media (max-width: 1300px) {
   .header {
     width: 100%;
-    height: 80px; /* Ajusta a altura do cabeçalho */
+    height: 80px; 
   }
+
   .header nav {
     display: none;
   }
+
   .logo {
     width: 100%;
     text-align: center;
   }
+
   .foto {
     display: none;
   }
-  .navbar a {
-    margin-left: 15px; /* Ajusta o espaçamento entre os itens da navegação */
-  }
+
   .home-content h1 {
-    font-size: 40px; /* Reduz o tamanho do título */
+    font-size: 40px; 
   }
+
   .home-content h3 {
-    font-size: 24px; /* Reduz o tamanho do subtítulo */
+    font-size: 24px; 
   }
+
   .home-content p {
-    font-size: 14px; /* Reduz o tamanho do texto */
+    font-size: 14px; 
   }
-  .foto {
-    width: 200px; /* Reduz o tamanho da foto */
-    height: 200px;
-  }
+
   .skills-sci {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
   .skills-sci a {
     font-size: 150px;
     color: #ededed;
   }
+
   .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .project img {
-    width: 300px; /* Reduz o tamanho das imagens dos projetos */
+    width: 300px; 
     height: 150px;
   }
+
   .projetos h1 {
-    font-size: 40px; /* Reduz o tamanho do título dos projetos */
+    font-size: 40px; 
   }
+
 }/*# sourceMappingURL=style.css.map */
